@@ -79,7 +79,7 @@ function Checkout() {
         <Container
           style={{
             background: darkMode ? "black" : "",
-            color: darkMode ? "white" : "",
+            color: darkMode ? "white" : "black",
           }}
         >
           <FirstChild>
@@ -257,7 +257,7 @@ const SecondChild = styled.div`
     width: auto;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
     padding: 12px;
     margin-left: 2rem;
   }
@@ -265,7 +265,7 @@ const SecondChild = styled.div`
     font-size: 1rem;
     font-weight: 550;
     margin-left: 1rem;
-    color: white;
+    
     padding: 12px;
     background-color: #03a4b0;
     border-radius: 6px;
@@ -404,12 +404,12 @@ const FifthChild = styled.div`
   strong {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
   }
   p {
     font-size: 1rem;
     font-weight: 500;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
   }
   h5 {
     margin-top: 0.4rem;
@@ -455,7 +455,7 @@ const SeventhChild = styled.div`
   p {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
   }
   button {
     font-size: 1rem;
