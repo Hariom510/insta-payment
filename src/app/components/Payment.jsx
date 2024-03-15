@@ -49,7 +49,9 @@ function Payment(props) {
           </FirstChild>
 
           <SecondChild>
-            <p>Choose Payment Method</p>
+            <p style={{
+            color:  "black",
+          }}>Choose Payment Method</p>
           </SecondChild>
 
           <ThirdChild>
@@ -57,8 +59,11 @@ function Payment(props) {
               props.data.paymentMethods.map((val,idx) => {
                 return (
                   <ThirdInnerChild key={idx}>
-                    <p>{val}</p>
+                    <p style={{
+                      color:  "black",
+                    }}>{val}</p>
                     <input
+                    
                       onChange={handleInput}
                       value={val}
                       name="val"

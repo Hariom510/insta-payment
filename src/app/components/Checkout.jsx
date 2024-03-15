@@ -97,7 +97,9 @@ function Checkout() {
           </FirstChild>
 
           <SecondChild>
-            <p>Your Cart</p>
+            <p style={{
+            color:  "black",
+          }}>Your Cart</p>
             <div>{totalItems} items</div>
           </SecondChild>
 
