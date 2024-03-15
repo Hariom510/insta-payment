@@ -54,9 +54,9 @@ function Payment(props) {
 
           <ThirdChild>
             {props.data &&
-              props.data.paymentMethods.map((val) => {
+              props.data.paymentMethods.map((val,idx) => {
                 return (
-                  <ThirdInnerChild>
+                  <ThirdInnerChild key={idx}>
                     <p>{val}</p>
                     <input
                       onChange={handleInput}
