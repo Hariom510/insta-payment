@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InstaPayments
 
-## Getting Started
+## Demo
+- Live Demo: [https://insta-payment-ebon.vercel.app/]
 
-First, run the development server:
+## Design Choices
+1. **Theme Switching:** Implemented a theme switcher for light and dark modes to enhance user experience.
+2. **Responsive Design:** Ensured the application is responsive across different devices.
+3. **Component Structure:** Structured components (Checkout, Payment, OrderConfirmation).
+4. **Visual Representation:** Used styled-components for visually distinct elements like payment methods and order details.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Challenges Faced
+1. **API Integration:** Handling asynchronous operations and error states while integrating the API.
+2. **State Management:** Managing state across components and ensuring correct behavior based on user interactions.
+3. **Dynamic Theme Switching:** Implementing dynamic theme switching while maintaining design consistency.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Summary
+The assignment provided valuable experience in frontend development, showcasing proficiency in frontend technologies and the ability to deliver high-quality solutions.
