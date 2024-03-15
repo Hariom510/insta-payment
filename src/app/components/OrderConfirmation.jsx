@@ -52,7 +52,7 @@ function OrderConfirmation(props) {
         <Container
           style={{
             background: darkMode ? "black" : "",
-            color: darkMode ? "white" : "",
+            color: darkMode ? "white" : "black",
           }}
         >
           <FirstChild>
@@ -212,7 +212,7 @@ const SecondChild = styled.div`
     width: auto;
     font-size: 1.6rem;
     font-weight: 600;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
     margin-left: 2rem;
   }
 `;

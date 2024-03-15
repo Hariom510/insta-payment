@@ -318,6 +318,7 @@ const ThirdInnerChild2 = styled.div`
     padding: 5px;
     border: none;
     outline: none;
+    color: black;
     background-color: #e7ebef;
   }
   button {

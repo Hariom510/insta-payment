@@ -30,7 +30,7 @@ function Payment(props) {
         <Container
           style={{
             background: darkMode ? "black" : "",
-            color: darkMode ? "white" : "",
+            color: darkMode ? "white" : "black",
           }}
         >
           <FirstChild>
@@ -145,7 +145,7 @@ const SecondChild = styled.div`
     width: auto;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
     padding: 12px;
     margin-left: 2rem;
   }
@@ -173,7 +173,7 @@ const ThirdInnerChild = styled.div`
     width: auto;
     font-size: 1rem;
     font-weight: bold;
-    color: #4f4d4d;
+    /* color: #4f4d4d; */
   }
   input {
     width: 40px;
