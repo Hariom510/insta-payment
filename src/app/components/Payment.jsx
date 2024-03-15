@@ -1,5 +1,5 @@
 "use client";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 import Checkout from "./Checkout";
@@ -24,6 +24,9 @@ function Payment(props) {
     setPaymentMethod(e.target.value);
     setIsClickable(true);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {!checkout && !orderConfirmation ? (

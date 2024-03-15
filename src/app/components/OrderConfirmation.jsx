@@ -46,6 +46,9 @@ function OrderConfirmation(props) {
       message = "Invalid payment status.";
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {!checkout ? (
